@@ -38,7 +38,7 @@
 </tx:advice>
 <!-- aop -->
 <aop:config>
-	<aop:advisor advice-ref="txAdvice" pointcut="execution(* cn.yangjl.service.impl.*.*(..))"/>
+	<aop:advisor advice-ref="txAdvice" pointcut="execution(* com.yangjl.service.impl.*.*(..))"/>
 </aop:config>
 
 </beans>

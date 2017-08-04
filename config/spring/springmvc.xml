@@ -29,8 +29,8 @@
 	比如json转换解析器就默认加载了，如果使用mvc:annotation-driven不用配置上边的RequestMappingHandlerMapping和RequestMappingHandlerAdapter
 	实际开发时使用mvc:annotation-driven
 	 -->
-	<mvc:annotation-driven conversion-service="conversionService"></mvc:annotation-driven>
-	
+	<!-- <mvc:annotation-driven conversion-service="conversionService"></mvc:annotation-driven> -->
+	<mvc:annotation-driven></mvc:annotation-driven>
 
 	<!-- 视图解析器
 	解析jsp解析，默认使用jstl标签，classpath下的得有jstl的包
@@ -41,6 +41,6 @@
 		<property name="prefix" value="/WEB-INF/jsp/"/>
 		<!-- 配置jsp路径的后缀 -->
 		<property name="suffix" value=".jsp"/>
-	</bean>
+	</bean>	
 	
 </beans>

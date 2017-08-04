@@ -12,6 +12,6 @@
 		http://www.springframework.org/schema/aop/spring-aop-3.2.xsd 
 		http://www.springframework.org/schema/tx 
 		http://www.springframework.org/schema/tx/spring-tx-3.2.xsd ">
-	<!-- 商品管理的service -->
-	<bean id="itemsService" class="com.yangjl.service.impl.ItemsServiceImpl" />
+<!-- 商品管理的service -->
+<bean id="itemsService" class="com.yangjl.service.impl.ItemsServiceImpl"/>
 </beans>
